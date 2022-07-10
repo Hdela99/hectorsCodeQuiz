@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: color 1.5s;
+}
+
+a:hover {
+    color: blue;
+}
+
+button {
+    display: inline-block;
+    margin: 1em;
+    cursor: pointer;
+    font-size: 100%;
+    background-color: palegoldenrod;
+    border-radius: 20px;
+    padding: 2px 10px 5px;
+    font-weight: bolder;
+    color: firebrick;
+    border: none;
+}
+
+.button:hover {
+    background-image: linear-gradient(to bottom right, rgba(114, 114, 114, .25), rgb(255, 255, 255, 1));
+}
+
+.choices button {
+    display:block;
+}
+
+input[type="text"] {
+    font-size: 100%;
+}
+
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+}
+
+li:nth-child(even) {
+    background-color: palevioletred;
+}
+
+.boxy {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+.Hide {
+    display: none;
+}
+
+.start {
+    text-align: center;
+}
+
+.scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.response {
+    font-style:italic;
+    font-size: 150%;
+    margin-top: 20%;
+    padding-top:10px;
+    color: slategrey;
+    border-top: 3px groove slateblue;
+    
+}
+
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

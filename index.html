@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+
+    <!--TODO: continue here -->
+    <div class="timer">Time Left: <span id="stopwatch">0</span></div>
+
+    <div class="boxy">
+        <div id="default" class="start">
+          <h1>Hectors Coding Refresher(Quiz)</h1>
+          <p>Try to answer the following code-related questions
+            within the top-rights time limit. This will help you 
+            refresh on general syntax/rules of the languages we learned.
+            WRONG answers will deduct the time by 10 seconds so be careful!
+          </p>
+          <button class="button" id="start-btn">Start Quiz</button>
+        </div>
+      <div id="questions" class="Hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="Done" class="Hide">
+        <h2 id="end">Finished the quiz.</h2>
+        <p>Your final score is <span id= "final-score"></span>.</p>
+        <p>Enter Initials: <input type="text" id="initials" max="3" />
+        <button class="button" id="submit">Submit</button>
+        </p>
+      </div>
+
+    </div>
+    <div id="response" class="hidingResponse"> bleh</div>
+    
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+  </body>
+</html>
