@@ -46,12 +46,5 @@ var questions = [
       choices: ["Objects", "Strings", "Booleans", "Numbers" ],
       answer: "Strings"
     },
-    {
-      title:
-      "An example of hoisting in javascript is: ",
-      choices: [
-        ""
-      ]
-    }
   ];
   
